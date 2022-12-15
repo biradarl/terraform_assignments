@@ -88,7 +88,7 @@ resource "aws_iam_instance_profile" "ec2_instance_profile" {
     ami = data.aws_ami.data_ami.id
     instance_type = "t2.micro"
     availability_zone = "us-east-1a"
-    key_name = "terraform_key"
+    key_name = "YourKeyPairName"
     subnet_id = aws_subnet.ec2_subnet.id
     iam_instance_profile = aws_iam_instance_profile.ec2_instance_profile.name
 
