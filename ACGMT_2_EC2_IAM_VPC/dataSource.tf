@@ -7,4 +7,4 @@ data "aws_ami" "data_ami" {
         values=["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
     }
     
-}
+}cjkascjkacj
